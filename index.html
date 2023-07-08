@@ -1,64 +1,238 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title> Liz Rodriguez</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
-    </style>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <script>
-        src="https://kit.Fontawesome/ce34f77e37.js"
-        crossorigin= "anonymous">
-    </script>
-</head>
-<body>
-<div class="container"></div>
-    <header>
-            <img src="./img/logo.png">   
-           
-        <nav>
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#SOY LIZ">Soy Liz</a></li>
-                <li><a href="#Hablemos">Hablemos</a></li>
-             </ul>
-        </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title> LIZ RODRIGUEZ  </title>
+    <link rel="shortcut icon" href="assets/images/favicon2.png">
+  </head>
 
-<main>
-    <section>
-         <div>
-            <img src="./img/img1.jpg">   
-         </div>     
+  <body>
+    <nav>
+      <h1>LIZ RODRIGUEZ / Desarrollo y Diseño Web </h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">SOBRE MI</a></li>
+        <li><a href="#skills" class="nav-link">HABILIDADES</a></li>
+        <li><a href="#projects" class="nav-link">PROYECTOS</a></li>
+        <li><a href="#contact" class="nav-link">CONTACTO</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <section class="hero" id="about">
+      <img
+        src="assets/images/liz.jpg"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Sobre mi</h2>
+        <p class="bio-text">
+          ¡Hola!
+Te doy la bienvenida a mi espacio en la red. Soy Técnico en Informática y vivo con mi familia en una pequeña localidad de Casanare  (Colombia).
+Introspectiva y analítica, busco siempre el significado de las cosas y los hechos, aunque también admiro las cosas bellas, refinadas y la excelencia en todos los aspectos. 
+        </p>
+      </div>
     </section>
-    <section>
-       <a name ="SOY LIZ"> </a>
-       <h2> HOLA SOY LIZ!!</h2>
-       <p> Mi nombre es Liz Marie Rodriguez, soy Asistente Administrativo con mas de 20 años de experiencia. A parte de la información que podrá ver en mi curriculum vitae, quiero transmitirle que el trabajo en equipo y la contribución de nuevas ideas que implementar, formaban la base de mis responsabilidades y logros alcanzados durante mis años de experiencia como Asistente Ejecutiva.</P> </p>
-    </section> 
+<br>
+<br>
+    
+    <section class="more-about">
+      <h2>Un poco mas sobre mi</h2>
+      <p>
+        Siempre estaré admirada y agradecida del poder mágico de Internet que nos une a pesar de no estar cerca, que nos permite trabajar rompiendo las barreras del espacio, sumando nuestros esfuerzos para lograr un cambio positivo en nuestras vidas, en nuestro entorno y en la vida de los demás. 
+      </p>
+      <p> 
+           <strong>EXPERIENCIA :</strong> Diseño de interfaces, Plataformas digitales, Asistencia Administrativa, Testing.                   
+      </p>
+      <p>
+          <strong> VALORES: </strong> Responsabilidad, Aprendizaje continuo, confianza.                    
+      </p>
+      <p>
+          <strong> CONOCIMIENTOS: </strong> HTML - CSS - Javascript, Marketing digital.
+      </p>         
+    </section>
 
-         <button> <a href="./img/hv.pdf">Descarga mi CV</a>  </button>
-           
-   <div class="hablemos"> 
-      <a id="Hablemos"> </a>
-        <h3>HABLEMOS</h3>
-        <p> Me destaco en resolucion de problemas, comunicación, responsabilidad, liderazgo y organización. He trabajado en diversas empresas y si quieres, podemos trabajar juntos. ¡Contáctame haciendo click aquí! </p>
+    
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Habilidades</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
     </div>
-<section class="icons">
-    <div>
-   <script src="https://kit.fontawesome.com/bd33897c5f.js" crossorigin="anonymous"></script>
-   <i class= "fa-brands fa-instagram"></i>  <i class="fa-brands fa-whatsapp"></i>      <i class="fa-brands fa-facebook"></i> 
-</div>
-</section>
-   </main>
-   <footer>
-     <p>@ Todos los derechos, reservados, Colombia, 2023</p>
-   </footer>
+    </section>
 
-</body>
+    
+    <section class="projects" id="projects">
+      <h2 class="projects-title"> Proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/reloj.png"
+            alt="reloj"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Reloj Digital</h3>
+          <a href="assets/images/codigo reloj.pdf" target="_blank" class="project-link">Ver código</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/calendario.png"
+            alt="calendario"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Calendario</h3>
+          <a href="assets/images/codigo calendario.pdf" target="_blank" class="project-link">Ver código</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/curriculo.jpg"
+            alt="curriculo"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Sintesis Curricular</h3>
+          <a href="assets/images/sintesis curricular.pdf" target="_blank" class="project-link">Ver CV</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+      <h2>Contactame</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escriba su nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Correo</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Escriba su correo"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Escriba su mensaje"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://twitter.com/andreina1977" target="_blank" 
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif" 
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+       /></a>
+      <a href="https://Instagram.com/lizmarierodri" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/liz-rodriguez-594b62157/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/lizmarie33" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    
+    <footer>
+      <p> @ Eidos Global, 2023</p>
+      
+    </footer>
+
+    
+    <script src="assets/js/app.js"></script>
+
+    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
